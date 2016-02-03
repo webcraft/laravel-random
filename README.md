@@ -126,8 +126,12 @@ print Random::generateString(32, 'abcdef')."\n";
 ```
 
 
-#### Changelog
+Changelog
+---------
+
 Please see [CHANGELOG](CHANGELOG.md) for more information.
 
-#### License
+License
+-------
+
 This library is licensed under the MIT license. Please see [License file](LICENSE.md) for more information.
