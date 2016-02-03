@@ -1,0 +1,43 @@
+{
+  "name": "webcraft/laravel-random",
+  "description": "Laravel 5 wrapper around ircmaxell/RandomLib",
+  "keywords": [
+    "laravel",
+    "random",
+    "random-lib",
+    "random-numbers",
+    "random-strings",
+    "cryptography"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michiel Loncke",
+      "email": "michiel@webcraft.be"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "ircmaxell/random-lib": "^1.1",
+    "illuminate/support": "^5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.0",
+    "orchestra/testbench": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Webcraft\\Random\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Webcraft\\Random\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "scripts": {
+    "test": "phpunit",
+    "cs-fix": "php-cs-fixer fix . -vv || true"
+  }
+}
