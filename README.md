@@ -1,6 +1,9 @@
 Laravel 5 wrapper around ircmaxell/RandomLib
 ============================================
 
+[![Build Status](https://travis-ci.org/webcraft/laravel-random.svg?branch=master)](https://travis-ci.org/webcraft/laravel-random)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/webcraft/laravel-random/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/webcraft/laravel-random/?branch=master)
+
 This package provides a Laravel 5.1+ Facade for [RandomLib by ircmaxell](https://github.com/ircmaxell/RandomLib).
 It lets you generate random numbers and strings, both for general usage and for usages in security contexts, such as tokens or strong cryptograhic keys.
 
