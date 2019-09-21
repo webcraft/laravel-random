@@ -1,6 +1,6 @@
 {
   "name": "webcraft/laravel-random",
-  "description": "Laravel 5 wrapper around ircmaxell/RandomLib",
+  "description": "Laravel 5/6 wrapper around ircmaxell/RandomLib",
   "keywords": [
     "laravel",
     "random",

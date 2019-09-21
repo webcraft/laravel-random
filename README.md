@@ -4,7 +4,7 @@ Laravel 5 wrapper around ircmaxell/RandomLib
 [![Build Status](https://travis-ci.org/webcraft/laravel-random.svg?branch=master)](https://travis-ci.org/webcraft/laravel-random)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/webcraft/laravel-random/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/webcraft/laravel-random/?branch=master)
 
-This package provides a Laravel 5.1+ Facade for [RandomLib by ircmaxell](https://github.com/ircmaxell/RandomLib).
+This package provides a Laravel 5.1+ Facade for [RandomLib by Paragon Initiative Enterprises](https://github.com/paragonie/RandomLib), which in turn is a fork of [RandomLib by ircmaxell](https://github.com/ircmaxell/RandomLib).
 It lets you generate random numbers and strings, both for general usage and for usages in security contexts, such as tokens or strong cryptograhic keys.
 
 Installation
@@ -16,7 +16,7 @@ The package can be installed via composer
 $ composer require webcraft/laravel-random
 ```
 
-Then, add the service provider to your config/app.php file:
+*[If you are using Laravel 5.5 with auto-discovery, you can skip this step]* Then, add the service provider to your config/app.php file:
 
 ```php
 // config/app.php
@@ -28,7 +28,7 @@ Then, add the service provider to your config/app.php file:
 ];
 ```
 
-If you want to use the facade, add this:
+*[If you are using Laravel 5.5 with auto-discovery, you can skip this step]* If you want to use the facade, add this:
 
 ```php
 // config/app.php
