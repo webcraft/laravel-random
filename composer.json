@@ -1,6 +1,7 @@
 {
   "name": "webcraft/laravel-random",
-  "description": "Laravel 5 wrapper around ircmaxell/RandomLib",
+  "description": "Laravel 5-6 wrapper around ircmaxell/RandomLib",
+  "version": "2.0.0",
   "keywords": [
     "laravel",
     "random",
@@ -18,7 +19,7 @@
   ],
   "require": {
     "php": ">=5.5.9",
-    "ircmaxell/random-lib": "^1.1",
+    "paragonie/random-lib": "^2.0",
     "illuminate/support": "^5.1"
   },
   "require-dev": {
