@@ -1,6 +1,6 @@
 {
   "name": "webcraft/laravel-random",
-  "description": "Laravel 5 wrapper around ircmaxell/RandomLib",
+  "description": "Laravel 5/6 wrapper around paragonie/random-lib",
   "keywords": [
     "laravel",
     "random",
@@ -18,7 +18,7 @@
   ],
   "require": {
     "php": ">=5.5.9",
-    "ircmaxell/random-lib": "^1.1",
+    "paragonie/random-lib": "^2.0",
     "illuminate/support": "^5.1"
   },
   "require-dev": {
@@ -39,5 +39,15 @@
   "scripts": {
     "test": "phpunit",
     "cs-fix": "php-cs-fixer fix . -vv || true"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Webcraft\\Random\\RandomServiceProvider"
+      ],
+      "aliases": {
+        "Random": "Webcraft\\Random\\RandomFacade"
+      }
+    }
   }
 }
