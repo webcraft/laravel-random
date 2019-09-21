@@ -1,4 +1,4 @@
-Laravel 5 wrapper around ircmaxell/RandomLib
+Laravel 5 wrapper around paragonie/RandomLib
 ============================================
 
 [![Build Status](https://travis-ci.org/webcraft/laravel-random.svg?branch=master)](https://travis-ci.org/webcraft/laravel-random)
