@@ -2,7 +2,7 @@
 
 class RandomTest extends Orchestra\Testbench\TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->app->config->set('laravel-random.strength', 'medium');
